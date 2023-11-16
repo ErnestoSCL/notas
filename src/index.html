@@ -2,12 +2,453 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UpnNotas</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+
+    body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #FFA500;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav img {
+            height: 70px;
+            margin-left: 10px;
+        }
+    table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
 </head>
 <body>
-  <app-root></app-root>
+  <nav>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/UPN_-_Universidad_Privada_del_Norte.png" alt="Logo">
+    <p style="font-weight: 800;">Universidad Privada del Norte</p>
+</nav>
+  <h1 style="padding-left: 10px;">INGENIERÍA DE DATOS</h1>
+  <H1 style="text-align: center;">Calificaciones finales</H1>
+
+  <table>
+      <thead>
+          <tr>
+              <th>Nombre</th>
+              <th>EP1</th>
+              <th>Parcial</th>
+              <th>EP2</th>
+              <th>Final</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Castillo, Eduardo</td>
+              <td>10</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+          </tr>
+          <tr>
+            <td>Gomez, Juan</td>
+            <td>15</td>
+            <td>14</td>
+            <td>16</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Martinez, Maria</td>
+            <td>12</td>
+            <td>11</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Fernandez, Carlos</td>
+            <td>18</td>
+            <td>17</td>
+            <td>16</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Rios, Laura</td>
+            <td>14</td>
+            <td>13</td>
+            <td>15</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Perez, Sofia</td>
+            <td>9</td>
+            <td>10</td>
+            <td>8</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Lopez, Daniel</td>
+            <td>16</td>
+            <td>15</td>
+            <td>17</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Gutierrez, Valentina</td>
+            <td>11</td>
+            <td>12</td>
+            <td>10</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>Santos, Andrea</td>
+            <td>13</td>
+            <td>14</td>
+            <td>12</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Mendoza, Javier</td>
+            <td>8</td>
+            <td>7</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Ruiz, Paula</td>
+            <td>10</td>
+            <td>11</td>
+            <td>9</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Ortega, Diego</td>
+            <td>14</td>
+            <td>13</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Chavez, Isabel</td>
+            <td>7</td>
+            <td>8</td>
+            <td>6</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Garcia, Roberto</td>
+            <td>12</td>
+            <td>11</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Serrano, Alejandra</td>
+            <td>9</td>
+            <td>10</td>
+            <td>8</td>
+            <td>11</td>
+        </tr>
+        <tr>
+          <td>Ramirez, Carolina</td>
+          <td>15</td>
+          <td>16</td>
+          <td>14</td>
+          <td>17</td>
+      </tr>
+      <tr>
+          <td>Herrera, Daniel</td>
+          <td>10</td>
+          <td>9</td>
+          <td>11</td>
+          <td>12</td>
+      </tr>
+      <tr>
+          <td>Paredes, Laura</td>
+          <td>13</td>
+          <td>14</td>
+          <td>12</td>
+          <td>15</td>
+      </tr>
+      <tr>
+          <td>Vargas, Adrian</td>
+          <td>8</td>
+          <td>7</td>
+          <td>9</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>Nunez, Sofia</td>
+          <td>16</td>
+          <td>15</td>
+          <td>17</td>
+          <td>14</td>
+      </tr>
+      <tr>
+          <td>Guzman, Paula</td>
+          <td>11</td>
+          <td>12</td>
+          <td>10</td>
+          <td>13</td>
+      </tr>
+      <tr>
+          <td>Salgado, Diego</td>
+          <td>14</td>
+          <td>13</td>
+          <td>15</td>
+          <td>16</td>
+      </tr>
+      <tr>
+          <td>Cruz, Isabel</td>
+          <td>7</td>
+          <td>8</td>
+          <td>6</td>
+          <td>9</td>
+      </tr>
+      <tr>
+          <td>Medina, Roberto</td>
+          <td>12</td>
+          <td>11</td>
+          <td>13</td>
+          <td>14</td>
+      </tr>
+      <tr>
+          <td>Valdez, Alejandra</td>
+          <td>9</td>
+          <td>10</td>
+          <td>8</td>
+          <td>11</td>
+      </tr>
+      <tr>
+          <td>Jimenez, Adrian</td>
+          <td>15</td>
+          <td>16</td>
+          <td>14</td>
+          <td>17</td>
+      </tr>
+      <tr>
+          <td>Cueva, Natalia</td>
+          <td>10</td>
+          <td>11</td>
+          <td>9</td>
+          <td>12</td>
+      </tr>
+      <tr>
+          <td>Gomez, Carlos</td>
+          <td>14</td>
+          <td>13</td>
+          <td>15</td>
+          <td>16</td>
+      </tr>
+      <tr>
+          <td>Soto, Laura</td>
+          <td>11</td>
+          <td>12</td>
+          <td>10</td>
+          <td>13</td>
+      </tr>
+      <tr>
+          <td>Ruiz, Francisco</td>
+          <td>8</td>
+          <td>7</td>
+          <td>9</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>Gutierrez, Valeria</td>
+          <td>16</td>
+          <td>15</td>
+          <td>17</td>
+          <td>14</td>
+      </tr>
+      <tr>
+          <td>Herrera, Andrea</td>
+          <td>13</td>
+          <td>14</td>
+          <td>12</td>
+          <td>15</td>
+      </tr>
+      <tr>
+          <td>Perez, Javier</td>
+          <td>9</td>
+          <td>10</td>
+          <td>8</td>
+          <td>11</td>
+      </tr>
+      <tr>
+          <td>Serrano, Roberto</td>
+          <td>12</td>
+          <td>11</td>
+          <td>13</td>
+          <td>14</td>
+      </tr>
+      <tr>
+          <td>Medina, Alejandra</td>
+          <td>10</td>
+          <td>9</td>
+          <td>11</td>
+          <td>12</td>
+      </tr>
+      <tr>
+        <td>Rodriguez, Diego</td>
+        <td>14</td>
+        <td>13</td>
+        <td>15</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Perez, Sofia</td>
+        <td>11</td>
+        <td>12</td>
+        <td>10</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Jimenez, Valentina</td>
+        <td>8</td>
+        <td>7</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Lopez, Francisco</td>
+        <td>16</td>
+        <td>15</td>
+        <td>17</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Santos, Maria</td>
+        <td>13</td>
+        <td>14</td>
+        <td>12</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Martinez, Carlos</td>
+        <td>10</td>
+        <td>9</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Cruz, Gabriela</td>
+        <td>15</td>
+        <td>16</td>
+        <td>14</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Hernandez, Laura</td>
+        <td>12</td>
+        <td>11</td>
+        <td>13</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Gutierrez, Alejandro</td>
+        <td>9</td>
+        <td>10</td>
+        <td>8</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Ortega, Isabel</td>
+        <td>14</td>
+        <td>13</td>
+        <td>15</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Mendoza, Daniel</td>
+        <td>11</td>
+        <td>12</td>
+        <td>10</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Salas, Natalia</td>
+        <td>8</td>
+        <td>7</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Gomez, Francisco</td>
+        <td>16</td>
+        <td>15</td>
+        <td>17</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Vargas, Valeria</td>
+        <td>13</td>
+        <td>14</td>
+        <td>12</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Cabrera, Carlos</td>
+        <td>10</td>
+        <td>9</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Nunez, Andrea</td>
+        <td>15</td>
+        <td>16</td>
+        <td>14</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Medina, Laura</td>
+        <td>12</td>
+        <td>11</td>
+        <td>13</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Vega, Gabriel</td>
+        <td>9</td>
+        <td>10</td>
+        <td>8</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Rios, Patricia</td>
+        <td>14</td>
+        <td>13</td>
+        <td>15</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Alvarez, Diego</td>
+        <td>11</td>
+        <td>12</td>
+        <td>10</td>
+        <td>13</td>
+    </tr>
+      </tbody>
+  </table>
 </body>
 </html>
